@@ -1,0 +1,13 @@
+{
+  "name": "webdriverio-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Amila Welihinda <amilaw@nvidia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^2.40.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-selenium-standalone-service": "^0.0.10",
+    "webdriverio": "^4.12.0"
+  }
+}

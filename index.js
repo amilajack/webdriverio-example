@@ -15,4 +15,6 @@ webdriverio
   .getTitle()
   .then(title => assert.strictEqual(title, 'Example Domain'))
   .end()
-  .catch(console.log);
+  .catch(error => {
+    throw new Error(error);
+  });

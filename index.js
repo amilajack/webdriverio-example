@@ -10,14 +10,12 @@ const options = {
   port: 4444,
 }
 
-const client = webdriverio.remote(options)
 
-client
+webdriverio
+  .remote(options)
   .init()
   .url('https://example.com')
-  // .waitForExist('h1')
-  // .getText('h1')
   .getTitle()
+  .then(title => assert.strictEqual(title, 'Example Domain'))
   .end()
-  .then(result => assert.strictEqual(result.value, 'Example Domain'))
   .catch(console.log)

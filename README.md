@@ -18,3 +18,7 @@ yarn
 # Run docker
 docker-compose up
 ```
+
+## Resources
+* [`docker-selenium`](https://github.com/SeleniumHQ/docker-selenium)
+* [webdriverio](https://github.com/webdriverio/webdriverio)

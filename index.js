@@ -1,15 +1,12 @@
-const webdriverio = require('webdriverio')
-const assert = require('assert')
+const webdriverio = require('webdriverio');
+const assert = require('assert');
 
 const options = {
   desiredCapabilities: {
     browserName: 'chrome'
   },
-  // baseUrl: 'http://192.168.99.100:4444',
-  host: '192.168.99.100',
-  port: 4444,
-}
-
+  host: '192.168.99.100' // docker host ip here
+};
 
 webdriverio
   .remote(options)
@@ -18,4 +15,4 @@ webdriverio
   .getTitle()
   .then(title => assert.strictEqual(title, 'Example Domain'))
   .end()
-  .catch(console.log)
+  .catch(console.log);

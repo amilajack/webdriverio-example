@@ -1,6 +1,6 @@
 webdriverio-example
 ===================
-[![Build Status](https://travis-ci.org/amilajack/webdriverio-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/webdriverio-example)
+[![Build Status](https://travis-ci.org/amilajack/webdriverio-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/webdriverio-example) [![Greenkeeper badge](https://badges.greenkeeper.io/amilajack/webdriverio-example.svg)](https://greenkeeper.io/)
 
 A simple example of using `docker-selenium` and `webdriverio`
 
